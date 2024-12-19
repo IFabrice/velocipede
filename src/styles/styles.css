@@ -1,0 +1,51 @@
+.loginPage {
+    background-color: ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin:0;
+    top: 20%;
+    position: absolute;
+}
+
+.loginPage h2 {
+    position: absolute;
+    top: 280px;
+}
+
+.loginForm {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 7px;
+    position: absolute;
+    top: 55%
+}
+
+.loginForm input {
+    height: 25px ;
+    border-radius: 10px;
+}
+
+.loginForm input[type="submit"] {
+    width: 100%;
+    background-color: #4940C1;
+    border: 15px;
+}
+
+.loginForm p {
+    align-self: center ;
+}
