@@ -1,5 +1,4 @@
 .loginPage {
-    background-color: ;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -10,7 +9,7 @@
 }
 
 .logo {
-    width: 10%;
+    width: 170px;
     height: auto;
     border-radius: 10px;
     display: block;
@@ -20,12 +19,15 @@
 }
 
 .loginPage h2 {
+    font-size: 30;
+    font-weight: 600 ;
+    color: rgb(69, 69, 69);
     position: absolute;
-    top: 280px;
+    top: 45%;
 }
 
 .loginForm {
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,17 +37,38 @@
     top: 55%
 }
 
+.labels {
+    font-size: 15;
+    font-weight: 500;
+    color: rgb(107, 106, 106);
+}
+
 .loginForm input {
-    height: 25px ;
-    border-radius: 10px;
+    height: 40px;
+    border: 0.7px solid rgb(175, 172, 172);
+    padding: 10px;
+    border-radius: 7px;
 }
 
 .loginForm input[type="submit"] {
     width: 100%;
     background-color: #4940C1;
     border: 15px;
+    color: white;
+    padding: 4;
+}
+
+.forgot {
+    color: rgb(86, 84, 84);
+    margin: 15px 0;
+}
+
+.loginForm span {
+    color: #7a71efe9;
+    font-weight: 500;
 }
 
 .loginForm p {
+    color: rgb(132, 129, 129);
     align-self: center ;
 }
