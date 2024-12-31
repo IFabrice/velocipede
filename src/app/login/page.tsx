@@ -20,11 +20,11 @@ function Login() {
         <label htmlFor="loginPassword" className="inputLabel">
           Password
         </label>
-        <input type="password" id="loginPassword" className="inputBox"></input>
+        <input type="password" id="loginPassword" className="inputBox" placeholder="Password"></input>
         <a href="abc.com" className="inputLabel forgot">Forgot password</a>
-        <input type="submit" value="Sign in"></input>
-        <p className="forgot">
-          Don't have an account? <span><a href="abc.com">Sign up</a></span>
+        <input type="submit" value="Sign in" className="inputBox bg-[#4940C1] text-white !p-1 self-center !w-4/5 my-4"></input>
+        <p className="text-[#848181]">
+          Don't have an account? <span><a href="abc.com" className="text-[#4940C1]">Sign up</a></span>
         </p>
       </form>
     </div>
