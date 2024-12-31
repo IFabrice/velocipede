@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.inputBox {
+    @apply w-[300px] border rounded-[7px] h-[40px] p-2
+}
+
+.inputLabel {
+    @apply  text-[15px] font-[500] text-[#6b6a6a]
+}
